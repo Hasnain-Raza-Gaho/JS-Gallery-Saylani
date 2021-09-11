@@ -37,7 +37,7 @@ body{
 .gallery .img img {
     max-width: 100%;
     max-height: 500px;
-    min-height: 500px;
+    /* min-height: 500px; */
     justify-content: center;
     align-items: center;
 }
@@ -73,4 +73,10 @@ body{
 .buttons button:disabled{
     background-color: rgb(200, 200, 200)
     
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: -20px;
 }
