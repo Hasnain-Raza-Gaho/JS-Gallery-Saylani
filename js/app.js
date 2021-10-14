@@ -3,7 +3,7 @@ var i = 1;
 function next() {
     i++;
     
-    if (i == 2){
+     if (i==2){
     
         document.getElementById('image').src = './Images/Image (2).jpg'
         document.getElementById('pre').removeAttribute('disabled')
@@ -11,14 +11,14 @@ function next() {
     
     
     
-        if (i==3){
+        else if (i==3){
             document.getElementById('image').src = './Images/Image (3).jpg'
 
             
         }
     
         
-        if (i==4){
+        else if (i==4){
             document.getElementById('image').src = './Images/Image (4).jpg'
             
         }
@@ -26,7 +26,7 @@ function next() {
     
     
     
-        if (i==5){
+       else  if (i==5){
             document.getElementById('image').src = './Images/Image (5).jpg'
             
         }
@@ -34,7 +34,7 @@ function next() {
     
     
     
-        if (i==6){
+       else if (i==6){
             document.getElementById('image').src = './Images/Image (6).jpg'
             
         }
@@ -42,7 +42,7 @@ function next() {
     
     
     
-        if (i==7){
+       else if (i==7){
             document.getElementById('image').src = './Images/Image (7).jpg'
             
         }
@@ -50,7 +50,7 @@ function next() {
     
     
     
-        if (i==8){
+       else if (i==8){
             document.getElementById('image').src = './Images/Image (8).jpg'
             
         }
@@ -58,7 +58,7 @@ function next() {
     
     
     
-        if (i==9){
+        else if (i==9){
             document.getElementById('image').src = './Images/Image (9).jpg'
         
         }
@@ -66,40 +66,41 @@ function next() {
     
     
     
-        if (i==10){
+        else if (i==10){
             document.getElementById('image').src = './Images/Image (10).jpg'
             document.getElementById('next').setAttribute('disabled',true)
             
         }
     
     
-    
+    console.log(i)
 
 }
 
 
 function pre() {
     i--;
-    if (i == 1){
-    document.getElementById('image').src = '/Images/Image (1).jpg'
+    console.log(i)
+    if (i==1){
+    document.getElementById('image').src = './Images/Image (1).jpg'
     document.getElementById('pre').setAttribute('disabled',true)
 }
 
-if (i == 2){
+else if (i==2){
 
-    document.getElementById('image').src = '/Images/Image (2).jpg'
+    document.getElementById('image').src = './Images/Image (2).jpg'
     document.getElementById('pre').removeAttribute('disabled')
     }
 
     
-    if (i==3){
+    else if (i==3){
         document.getElementById('image').src = './Images/Image (3).jpg'
 
         
     }
 
     
-    if (i==4){
+    else if (i==4){
         document.getElementById('image').src = './Images/Image (4).jpg'
         
     }
@@ -107,7 +108,7 @@ if (i == 2){
 
 
 
-    if (i==5){
+    else if (i==5){
         document.getElementById('image').src = './Images/Image (5).jpg'
         
     }
@@ -115,7 +116,7 @@ if (i == 2){
 
 
 
-    if (i==6){
+    else if (i==6){
         document.getElementById('image').src = './Images/Image (6).jpg'
         
     }
@@ -123,7 +124,7 @@ if (i == 2){
 
 
 
-    if (i==7){
+    else if (i==7){
         document.getElementById('image').src = './Images/Image (7).jpg'
         
     }
@@ -131,7 +132,7 @@ if (i == 2){
 
 
 
-    if (i==8){
+    else if (i==8){
         document.getElementById('image').src = './Images/Image (8).jpg'
         
     }
@@ -139,7 +140,7 @@ if (i == 2){
 
 
 
-    if (i==9){
+    else if (i==9){
         document.getElementById('image').src = './Images/Image (9).jpg'
     document.getElementById('next').removeAttribute('disabled')
 
@@ -148,7 +149,7 @@ if (i == 2){
     
     
     
-    if (i==10){
+    else if (i==10){
         document.getElementById('image').src = './Images/Image (10).jpg'
         document.getElementById('next').removeAttribute('disabled')
         
